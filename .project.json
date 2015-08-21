@@ -1,0 +1,42 @@
+{
+  "dataBinding": {
+    "/view/Master.view.xml": {
+      "entitySet": "Products"
+    },
+    "/view/Detail.view.xml": {
+      "entitySet": "Products"
+    },
+    "/view/NotFound.view.xml": {
+      "entitySet": "UNBINDKEY"
+    },
+    "/view/App.view.xml": {
+      "entitySet": "UNBINDKEY"
+    }
+  },
+  "generation": [
+    {
+      "templateId": "ui5template.fioriMasterDetail",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Sat, 25 Jul 2015 21:48:13 GMT"
+    }
+  ],
+  "mockpreview": {
+    "mockUri": "/destinations/northwind/V3/northwind/northwind.svc",
+    "metadataFilePath": "",
+    "loadJSONFiles": false,
+    "loadCustomRequests": false,
+    "mockRequestsFilePath": ""
+  },
+  "translation": {
+    "translationDomain": "",
+    "supportedLanguages": "en,fr,de",
+    "defaultLanguage": "en",
+    "defaultI18NPropertyFile": "i18n.properties",
+    "resourceModelName": "i18n"
+  },
+  "hcpdeploy": {
+    "account": "s0012889879trial",
+    "name": "pruebanorth2",
+    "lastVersionWeTriedToDeploy": "1.0.0"
+  }
+}
